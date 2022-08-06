@@ -6,8 +6,8 @@ namespace App;
 
 final class Post
 {
-    public function func()
+    public function getTitle()
     {
-        return true;
+        return '初めての投稿';
     }
 }

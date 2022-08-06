@@ -12,9 +12,9 @@ final class PostTest extends TestCase
     /**
      * @test
      */
-    public function sample()
+    public function getTitle()
     {
-        $actual = (new Post())->func();
-        $this->assertSame(true, $actual);
+        $actual = (new Post())->getTitle();
+        $this->assertSame('初めての投稿', $actual);
     }
 }
