@@ -2,7 +2,7 @@
     "name": "panda-program/unit-test-sample-php",
     "description": "sample repository for unit test in PHP",
     "scripts": {
-        "test": "phpunit tests"
+        "test": "vendor/bin/phpunit tests"
     },
     "autoload": {
         "psr-4": {
